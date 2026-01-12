@@ -1,0 +1,1 @@
+concat('{"type":"FeatureCollection","features":', outputs('SERVICE:_Format_services_as_GeoJSON')?['body'], '}')
