@@ -1,1 +1,1 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":["-2.22518","51.898"]},"properties":{"ServiceID":"","marker-color":"","marker-size":"small","marker-symbol":"circle"}}]}
+concat('{"type":"FeatureCollection","features":', outputs('SERVICE:_Format_services_as_GeoJSON')?['body'], '}')
